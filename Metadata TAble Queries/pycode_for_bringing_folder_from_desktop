@@ -1,0 +1,20 @@
+# 1. Navigate to repository
+cd "C:\Users\jyoth\Desktop\joy-ADF-Repo"
+
+# 2. Get latest changes from GitHub
+git pull origin main
+
+# 3. Copy your Desktop project folder
+Copy-Item "C:\Users\jyoth\OneDrive\Desktop\YOUR_FOLDER" -Destination "." -Recurse
+
+# 4. Check changes
+git status
+
+# 5. Add files
+git add .
+
+# 6. Commit
+git commit -m "Added new project"
+
+# 7. Push to GitHub
+git push origin main
