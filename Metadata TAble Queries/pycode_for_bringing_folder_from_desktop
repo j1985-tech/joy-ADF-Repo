@@ -1,4 +1,7 @@
-# 1. Navigate to repository
+Step 1. Open PowerShell
+Press Windows + X and select Terminal or PowerShell.# 1. Navigate to repository
+Step 2. Navigate to your Git repository
+Run:
 cd "C:\Users\jyoth\Desktop\joy-ADF-Repo"
 
 # 2. Get latest changes from GitHub
@@ -11,7 +14,7 @@ Copy-Item "C:\Users\jyoth\OneDrive\Desktop\YOUR_FOLDER" -Destination "." -Recurs
 git status
 
 # 5. Add files
-git add .
+git add "foldername"
 
 # 6. Commit
 git commit -m "Added new project"
