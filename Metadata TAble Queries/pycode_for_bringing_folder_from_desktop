@@ -3,6 +3,8 @@ Press Windows + X and select Terminal or PowerShell.# 1. Navigate to repository
 Step 2. Navigate to your Git repository
 Run:
 cd "C:\Users\jyoth\Desktop\joy-ADF-Repo"
+# If we are not connected to git (git configuration) then cloneing into 'main'
+git clone https://github.com/j1985-tech/joy-ADF-Repo/tree/main
 
 # 2. Get latest changes from GitHub
 git pull origin main
