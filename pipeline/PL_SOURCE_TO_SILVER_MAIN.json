@@ -50,7 +50,7 @@
 					},
 					"activities": [
 						{
-							"name": "test",
+							"name": "set variable",
 							"type": "SetVariable",
 							"dependsOn": [],
 							"policy": {
